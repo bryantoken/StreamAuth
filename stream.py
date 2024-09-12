@@ -54,7 +54,7 @@ def HUB_login(login):
         web.get("https://hub.xpi.com.br/dashboard/#/performance")
         time.sleep(3)
         web.find_element(By.XPATH, '/html/body/auth0-login-page/arsenal-loader/div/div/div[2]/div/div/div/div/div/div/form/div[1]/div/input').send_keys(login)
-        web.find_element(By.XPATH, '/html/body/auth0-login-page/arsenal-loader/div/div/div[2]/div/div/div/div/div/div/form/div[2]/div/input').send_keys("Ketene#6")
+        web.find_element(By.XPATH, '/html/body/auth0-login-page/arsenal-loader/div/div/div[2]/div/div/div/div/div/div/form/div[2]/div/input').send_keys(login)
         #web.find_element(By.XPATH, '/html/body/auth0-login-page/arsenal-loader/div/div/div[2]/div/div/div/div/div/div/form/div[5]/button').click()
         c = input("Posso continuar? s -> Pode. n -> Roda de novo:  ")
         
