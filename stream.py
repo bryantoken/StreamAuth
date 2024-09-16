@@ -32,8 +32,8 @@ from webdriver_manager.firefox import GeckoDriverManager
 # Carregar a planilha Excel
 # pasta_downloads = 'C:/Users/golde/Documents/'
 # df = pd.read_excel(pasta_downloads + "usuarios.xlsx")
-diretorio_atual = os.path.dirname(__file__)
-caminho_arquivo = os.path.join(diretorio_atual, "usuarios.xlsx")
+# diretorio_atual = os.path.dirname(__file__)
+caminho_arquivo = os.path.join("usuarios.xlsx")
 df = pd.read_excel(caminho_arquivo)
 ##########
 def HUB_login(login):
