@@ -1,0 +1,8 @@
+streamlit
+pandas
+selenium
+webdriver-manager
+schedule
+inputimeout
+telepot
+numpy
