@@ -6,3 +6,4 @@ schedule
 inputimeout
 telepot
 numpy
+openpyxl
